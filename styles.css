@@ -1,0 +1,109 @@
+nav {
+  background-color: #343a40;
+}
+
+.codoACodo {
+  width: 8rem;
+}
+
+.mr-auto {
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-image {
+  filter: brightness(60%);
+}
+
+.carousel-text-container {
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-text {
+  margin-right: 4rem;
+  text-align: right;
+  max-width: 60ch;
+  color: white;
+}
+
+.btn-carousel {
+  margin-inline: 0.4rem;
+}
+
+.titulo {
+  margin-block: 1rem;
+  text-align: center;
+}
+
+.cards {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-sm {
+  padding-block: 0;
+  font-weight: bold;
+}
+
+.horario {
+  margin-block: 1rem;
+}
+
+.horario-image {
+  width: 100%;
+}
+
+.horario-description {
+  padding: 2rem;
+  color: white;
+  background-color: #343a40;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+textarea::-webkit-input-placeholder {
+  font-size: 2rem;
+}
+
+.h5 {
+  font-weight: 400;
+}
+
+.container-footer {
+  margin-top: 4rem;
+  color: white;
+  background: rgb(0, 36, 88);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 36, 88, 1) 0%,
+    rgba(0, 72, 173, 1) 100%
+  );
+}
+
+@media (max-width: 600px) {
+  .carousel-text {
+    margin: auto;
+    max-width: 40ch;
+  }
+
+  .carousel-inner .item {
+    min-height: 320px;
+  }
+
+  .carousel-item img {
+    min-height: 320px;
+    object-fit: cover;
+  }
+}
